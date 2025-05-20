@@ -41,8 +41,8 @@
         $("#payment_form").submit(function (e) {
             document.getElementById("idTransactionUuid").value = crypto.randomUUID();
             document.getElementById("idSignedDateTime").value = new Date().toISOString();
-            document.getElementById("idAccessKey").value = "d98a41c035ca306f983e612bf2f385bb"; // From environment variables
-            document.getElementById("idProfileId").value = "951D9CC0-7EC4-4790-8E43-ADB9F16D0430"; // From environment variables
+//            document.getElementById("idAccessKey").value = "d98a41c035ca306f983e612bf2f385bb"; // From environment variables
+//            document.getElementById("idProfileId").value = "951D9CC0-7EC4-4790-8E43-ADB9F16D0430"; // From environment variables
             console.log("Debug : " + document.getElementById("idProfileId").value);
         
         })
